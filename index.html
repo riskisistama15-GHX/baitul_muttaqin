@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DKM Baitul Muttaqiin — Remaja Masjid</title>
+  <meta name="description" content="Sistem Pendataan & Pengembangan Remaja DKM Masjid Baitul Muttaqiin. Bergabunglah dalam kegiatan olahraga dan keagamaan." />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🕌</text></svg>" />
+</head>
+<body>
+
+<!-- ══════════════════════════════════════════
+     NAVBAR
+══════════════════════════════════════════ -->
+<nav id="navbar">
+  <div class="container">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-brand">
+        <div class="nav-logo-wrap">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 3c1.66 0 3 1.34 3 3s-1.34 3-3 3-3-1.34-3-3 1.34-3 3-3zm0 14.2c-2.5 0-4.71-1.28-6-3.22.03-1.99 4-3.08 6-3.08 1.99 0 5.97 1.09 6 3.08-1.29 1.94-3.5 3.22-6 3.22z"/>
+          </svg>
+        </div>
+        <div class="nav-brand-text">
+          <span class="nav-brand-name">DKM Baitul Muttaqiin</span>
+          <span class="nav-brand-sub">Remaja Masjid</span>
+        </div>
+      </a>
+      <div class="nav-links">
+        <a href="#beranda"  class="nav-link" data-section="beranda">Beranda</a>
+        <a href="#tentang"  class="nav-link" data-section="tentang">Tentang</a>
+        <a href="#sambutan" class="nav-link" data-section="sambutan">Sambutan</a>
+        <a href="#struktur" class="nav-link" data-section="struktur">Struktur</a>
+        <a href="#program"  class="nav-link" data-section="program">Program</a>
+        <a href="#kontak"   class="nav-link" data-section="kontak">Kontak</a>
+        <a href="pages/daftar.html" class="nav-cta">Daftar Sekarang</a>
+      </div>
+      <button class="nav-hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<!-- MOBILE NAV -->
+<div class="mobile-nav" id="mobileNav">
+  <button class="mobile-close" id="mobileClose">✕</button>
+  <a href="#beranda">Beranda</a>
+  <a href="#tentang">Tentang</a>
+  <a href="#sambutan">Sambutan</a>
+  <a href="#struktur">Struktur</a>
+  <a href="#program">Program</a>
+  <a href="#kontak">Kontak</a>
+  <a href="pages/daftar.html" style="color:var(--green-300)">Daftar Sekarang →</a>
+</div>
+
+<!-- ══════════════════════════════════════════
+     HERO
+══════════════════════════════════════════ -->
+<section id="beranda" class="hero">
+  <div class="hero-pattern"></div>
+  <div class="hero-orb hero-orb-1"></div>
+  <div class="hero-orb hero-orb-2"></div>
+  <div class="container">
+    <div class="hero-inner">
+      <div class="hero-content">
+        <div class="hero-badge">
+          <span class="badge badge-white">🕌 DKM Baitul Muttaqiin</span>
+        </div>
+        <h1 class="hero-title">
+          Membangun<br>
+          <span class="display">Generasi Muda</span><br>
+          Aktif & Berakhlak
+        </h1>
+        <p class="hero-desc">
+          Program remaja masjid yang mengintegrasikan kegiatan olahraga unggulan dengan pembinaan keagamaan untuk membentuk pemuda yang sehat, berprestasi, dan berakhlakul karimah.
+        </p>
+        <div class="hero-btns">
+          <a href="pages/daftar.html" class="btn btn-primary btn-lg">
+            <span>Daftar Sekarang</span>
+            <span>→</span>
+          </a>
+          <a href="#program" class="btn btn-outline btn-lg">Lihat Program</a>
+        </div>
+        <div class="hero-stats">
+          <div class="hero-stat">
+            <div class="hero-stat-num" data-target="84" data-suffix="+">0+</div>
+            <div class="hero-stat-lbl">Anggota Aktif</div>
+          </div>
+          <div class="hero-stat">
+            <div class="hero-stat-num" data-target="4" data-suffix="">0</div>
+            <div class="hero-stat-lbl">Program Aktif</div>
+          </div>
+          <div class="hero-stat">
+            <div class="hero-stat-num" data-target="3" data-suffix="+ Thn">0</div>
+            <div class="hero-stat-lbl">Berdiri Sejak</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="hero-card">
+          <div class="hero-card-icon">🥋</div>
+          <div class="hero-card-text">
+            <div class="hero-card-title">Pencak Silat</div>
+            <div class="hero-card-sub">Setiap Sabtu 07.00 – 09.00 WIB</div>
+          </div>
+          <span class="hero-card-arrow">›</span>
+        </div>
+        <div class="hero-card">
+          <div class="hero-card-icon">🏓</div>
+          <div class="hero-card-text">
+            <div class="hero-card-title">Tenis Meja</div>
+            <div class="hero-card-sub">Setiap Jumat 16.00 – 18.00 WIB</div>
+          </div>
+          <span class="hero-card-arrow">›</span>
+        </div>
+        <div class="hero-card">
+          <div class="hero-card-icon">📖</div>
+          <div class="hero-card-text">
+            <div class="hero-card-title">Kajian Rutin</div>
+            <div class="hero-card-sub">Setiap Ahad 08.00 – 09.30 WIB</div>
+          </div>
+          <span class="hero-card-arrow">›</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════
+     TENTANG
+══════════════════════════════════════════ -->
+<section id="tentang" class="section">
+  <div class="container">
+    <div class="tentang-grid">
+      <div class="reveal">
+        <div class="section-label">Tentang Kami</div>
+        <h2 class="section-title">Profil <span class="display">DKM Baitul Muttaqiin</span></h2>
+        <p class="section-desc" style="margin-bottom:2rem">
+          DKM Baitul Muttaqiin adalah organisasi kepengurusan masjid yang berkomitmen membina generasi muda di lingkungan sekitar melalui program terpadu berbasis olahraga dan keagamaan.
+        </p>
+        <div class="visi-misi-cards">
+          <div class="vm-card vm-card-visi">
+            <div class="vm-label">Visi</div>
+            <div class="vm-title">Generasi Muda yang Aktif, Berprestasi, dan Religius</div>
+            <div class="vm-text">Membentuk generasi muda yang sehat jasmani dan rohani, unggul dalam prestasi, serta kukuh dalam nilai-nilai keislaman.</div>
+          </div>
+          <div class="vm-card vm-card-misi">
+            <div class="vm-label">Misi</div>
+            <ul class="vm-list">
+              <li>Mengadakan kegiatan olahraga rutin yang terstruktur dan berkesinambungan</li>
+              <li>Menyelenggarakan pembinaan keagamaan melalui kajian dan program Islami</li>
+              <li>Membangun kebersamaan dan solidaritas antar remaja masjid</li>
+              <li>Mendukung pengembangan potensi dan prestasi remaja secara menyeluruh</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="reveal reveal-delay-2">
+        <div class="tentang-image-stack">
+          <div class="tentang-img-main">🕌</div>
+          <div class="tentang-img-accent">🤲</div>
+          <div class="tentang-badge-float">
+            <div class="tentang-badge-icon">🏆</div>
+            <div>
+              <div class="tentang-badge-text">Berprestasi</div>
+              <div class="tentang-badge-sub">Juara Silat 2023</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════
+     SAMBUTAN KETUA
+══════════════════════════════════════════ -->
+<section id="sambutan" class="section sambutan-section">
+  <div class="container">
+    <div class="sambutan-inner">
+      <div class="sambutan-photo-wrap reveal">
+        <div class="sambutan-photo">👤</div>
+        <div>
+          <div class="sambutan-photo-name">H. Ahmad Syaifullah, S.Ag</div>
+          <div class="sambutan-photo-role">Ketua DKM Baitul Muttaqiin</div>
+          <div class="sambutan-photo-role" style="color:rgba(255,255,255,.45);font-size:11px;margin-top:2px">Periode 2022 – 2025</div>
+        </div>
+      </div>
+
+      <div class="sambutan-content reveal reveal-delay-2">
+        <div class="section-label">Sambutan Ketua</div>
+        <h2 class="sambutan-title">Assalamu'alaikum Warahmatullahi Wabarakatuh</h2>
+        <div class="sambutan-quote">
+          <p>
+            Pemuda adalah tulang punggung umat dan generasi penerus peradaban Islam. Melalui program remaja masjid ini, kita bersama-sama membangun fondasi yang kokoh — sehat raganya, kuat imannya, dan mulia akhlaknya.
+          </p>
+        </div>
+        <div class="sambutan-text">
+          <p style="margin-bottom:1rem">
+            Puji syukur kami panjatkan ke hadirat Allah SWT atas segala limpahan rahmat dan hidayah-Nya, sehingga program pengembangan remaja DKM Baitul Muttaqiin dapat terus berjalan dengan baik dan memberikan manfaat nyata bagi masyarakat sekitar masjid.
+          </p>
+          <p style="margin-bottom:1rem">
+            Kami menyadari bahwa generasi muda adalah aset terbesar umat Islam. Oleh karena itu, kami hadir dengan program yang komprehensif — memadukan kegiatan olahraga seperti pencak silat, tenis meja, dan futsal, dengan pembinaan keagamaan melalui kajian rutin setiap pekan.
+          </p>
+          <p>
+            Kami mengundang seluruh remaja di lingkungan sekitar masjid untuk bergabung dan menjadi bagian dari keluarga besar DKM Baitul Muttaqiin. Bersama kita tumbuh, bersama kita berprestasi, dan bersama kita berkontribusi untuk umat dan bangsa.
+          </p>
+        </div>
+        <div class="sambutan-signature">
+          <div class="sambutan-sig-line"></div>
+          <div>
+            <div class="sambutan-sig-name">H. Ahmad Syaifullah, S.Ag</div>
+            <div class="sambutan-sig-role">Ketua DKM Baitul Muttaqiin</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════
+     STRUKTUR ORGANISASI
+══════════════════════════════════════════ -->
+<section id="struktur" class="section org-section">
+  <div class="container">
+    <div class="text-center reveal" style="margin-bottom:1rem">
+      <div class="section-label" style="justify-content:center">Kepengurusan</div>
+      <h2 class="section-title">Struktur <span class="display">Organisasi</span></h2>
+      <p class="section-desc" style="margin:0 auto">Pengurus DKM Baitul Muttaqiin Periode 2022 – 2025</p>
+    </div>
+
+    <div class="org-chart">
+      <!-- Level 1: Pelindung -->
+      <div class="org-level org-top reveal" style="margin-bottom:2rem">
+        <div class="org-card" style="border: 2px solid #c9a84c; background: linear-gradient(135deg,#fdf3dc,#fff)">
+          <div class="org-avatar" style="background:linear-gradient(135deg,#c9a84c,#8a6a1e);color:#fff;width:52px;height:52px;border-radius:50%;margin:0 auto .75rem;display:flex;align-items:center;justify-content:center;font-weight:700">P</div>
+          <div class="org-card-role" style="color:#8a6a1e">Pelindung</div>
+          <div class="org-card-name">Kepala Desa / Lurah</div>
+          <div class="org-card-period">ex officio</div>
+        </div>
+      </div>
+
+      <!-- Level 2: Ketua -->
+      <div class="org-level reveal reveal-delay-1">
+        <div class="org-card org-card-top">
+          <div class="org-avatar org-avatar-ketua">K</div>
+          <div class="org-card-role">Ketua DKM</div>
+          <div class="org-card-name">H. Ahmad Syaifullah, S.Ag</div>
+          <div class="org-card-period">Periode 2022 – 2025</div>
+        </div>
+      </div>
+
+      <!-- Level 3: Wakil, Sekretaris, Bendahara -->
+      <div class="org-level-connector reveal reveal-delay-2" style="margin-bottom:2rem">
+        <div class="org-card">
+          <div class="org-avatar org-avatar-wakil">W</div>
+          <div class="org-card-role">Wakil Ketua</div>
+          <div class="org-card-name">Drs. Muhamad Faisal</div>
+          <div class="org-card-period">2022 – 2025</div>
+        </div>
+        <div class="org-card">
+          <div class="org-avatar org-avatar-sekre">S</div>
+          <div class="org-card-role">Sekretaris</div>
+          <div class="org-card-name">Rizky Ramadhan, S.Pd</div>
+          <div class="org-card-period">2022 – 2025</div>
+        </div>
+        <div class="org-card">
+          <div class="org-avatar org-avatar-benda">B</div>
+          <div class="org-card-role">Bendahara</div>
+          <div class="org-card-name">Hj. Siti Aminah</div>
+          <div class="org-card-period">2022 – 2025</div>
+        </div>
+      </div>
+
+      <!-- Level 4: Bidang-bidang -->
+      <div class="org-level-connector reveal reveal-delay-3" style="position:relative">
+        <div style="position:absolute;top:0;left:12%;right:12%;height:2px;background:var(--green-200)"></div>
+        <div class="org-card" style="margin-top:2rem">
+          <div class="org-avatar org-avatar-bidang" style="font-size:16px">🕌</div>
+          <div class="org-card-role">Bidang</div>
+          <div class="org-card-name" style="font-size:12.5px">Keagamaan</div>
+          <div class="org-card-period">Ustad Hendra, M.Ag</div>
+        </div>
+        <div class="org-card" style="margin-top:2rem">
+          <div class="org-avatar org-avatar-bidang" style="font-size:16px">⚽</div>
+          <div class="org-card-role">Bidang</div>
+          <div class="org-card-name" style="font-size:12.5px">Olahraga</div>
+          <div class="org-card-period">Budi Prasetyo, S.Or</div>
+        </div>
+        <div class="org-card" style="margin-top:2rem">
+          <div class="org-avatar org-avatar-bidang" style="font-size:16px">📣</div>
+          <div class="org-card-role">Bidang</div>
+          <div class="org-card-name" style="font-size:12.5px">Sosial & Humas</div>
+          <div class="org-card-period">Dewi Rahmawati, S.Kom</div>
+        </div>
+        <div class="org-card" style="margin-top:2rem">
+          <div class="org-avatar org-avatar-bidang" style="font-size:16px">📚</div>
+          <div class="org-card-role">Bidang</div>
+          <div class="org-card-name" style="font-size:12.5px">Pendidikan</div>
+          <div class="org-card-period">M. Taufik, S.Pd</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════
+     PROGRAM
+══════════════════════════════════════════ -->
+<section id="program" class="section" style="background:#fff">
+  <div class="container">
+    <div class="text-center reveal" style="margin-bottom:3rem">
+      <div class="section-label" style="justify-content:center">Kegiatan Kami</div>
+      <h2 class="section-title">Program <span class="display">Unggulan</span></h2>
+      <p class="section-desc" style="margin:0 auto">Pilih kegiatan yang sesuai dengan minat dan bakatmu, ikuti bersama teman-teman remaja masjid.</p>
+    </div>
+    <div class="programs-grid">
+      <div class="program-card reveal">
+        <div class="program-icon">🥋</div>
+        <div class="program-title">Pencak Silat</div>
+        <div class="program-desc">Latihan bela diri tradisional Indonesia yang melatih fisik, mental, dan kedisiplinan. Dibimbing oleh pelatih bersertifikat IPSI.</div>
+        <span class="program-schedule">🕐 Sabtu 07.00 – 09.00</span>
+      </div>
+      <div class="program-card reveal reveal-delay-1">
+        <div class="program-icon">🏓</div>
+        <div class="program-title">Tenis Meja</div>
+        <div class="program-desc">Latihan dan kompetisi tenis meja untuk semua tingkat kemampuan. Tersedia 3 meja dan peralatan lengkap di aula masjid.</div>
+        <span class="program-schedule">🕐 Jumat 16.00 – 18.00</span>
+      </div>
+      <div class="program-card reveal reveal-delay-2">
+        <div class="program-icon">⚽</div>
+        <div class="program-title">Futsal & Olahraga</div>
+        <div class="program-desc">Futsal, badminton, dan olahraga lainnya yang mempererat kebersamaan. Tersedia lapangan di sekitar masjid.</div>
+        <span class="program-schedule">🕐 Minggu 07.00 – 09.00</span>
+      </div>
+      <div class="program-card reveal reveal-delay-3">
+        <div class="program-icon">📖</div>
+        <div class="program-title">Kajian Keagamaan</div>
+        <div class="program-desc">Kajian rutin mingguan membahas ilmu agama, akhlak, fiqih pemuda, dan pembinaan karakter Islami yang komprehensif.</div>
+        <span class="program-schedule">🕐 Ahad 08.00 – 09.30</span>
+      </div>
+      <div class="program-card reveal">
+        <div class="program-icon">🏸</div>
+        <div class="program-title">Badminton</div>
+        <div class="program-desc">Latihan dan pertandingan bulutangkis untuk meningkatkan kebugaran dan semangat kompetisi antar remaja masjid.</div>
+        <span class="program-schedule">🕐 Rabu 16.00 – 18.00</span>
+      </div>
+      <div class="program-card reveal reveal-delay-1">
+        <div class="program-icon">🌙</div>
+        <div class="program-title">Kegiatan Ramadhan</div>
+        <div class="program-desc">Program khusus Ramadhan: tarawih berjamaah, tadarus Al-Qur'an, buka puasa bersama, dan i'tikaf untuk remaja.</div>
+        <span class="program-schedule">🕐 Setiap Ramadhan</span>
+      </div>
+    </div>
+    <div class="text-center" style="margin-top:2.5rem">
+      <a href="pages/daftar.html" class="btn btn-primary btn-lg">
+        Bergabung Sekarang →
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════
+     KONTAK
+══════════════════════════════════════════ -->
+<section id="kontak" class="section" style="background:var(--gray-50)">
+  <div class="container">
+    <div class="text-center reveal" style="margin-bottom:3rem">
+      <div class="section-label" style="justify-content:center">Hubungi Kami</div>
+      <h2 class="section-title">Kontak & <span class="display">Lokasi</span></h2>
+    </div>
+    <div class="kontak-grid">
+      <div class="reveal">
+        <div class="kontak-info-list">
+          <div class="kontak-item">
+            <div class="kontak-icon">📍</div>
+            <div>
+              <div class="kontak-label">Alamat Masjid</div>
+              <div class="kontak-value">Jl. Masjid Baitul Muttaqiin No. 01<br>RT 01/RW 02, Kelurahan Setempat<br>Kota / Kabupaten, Provinsi</div>
+            </div>
+          </div>
+          <div class="kontak-item">
+            <div class="kontak-icon">📱</div>
+            <div>
+              <div class="kontak-label">WhatsApp Admin</div>
+              <div class="kontak-value" style="color:var(--green-600)">+62 812-XXXX-XXXX</div>
+            </div>
+          </div>
+          <div class="kontak-item">
+            <div class="kontak-icon">📧</div>
+            <div>
+              <div class="kontak-label">Email</div>
+              <div class="kontak-value">dkm.baitulmuttaqiin@gmail.com</div>
+            </div>
+          </div>
+          <div class="kontak-item">
+            <div class="kontak-icon">🕐</div>
+            <div>
+              <div class="kontak-label">Jam Operasional</div>
+              <div class="kontak-value">Senin – Minggu: 06.00 – 21.00 WIB</div>
+            </div>
+          </div>
+        </div>
+        <a href="pages/daftar.html" class="btn btn-primary" style="width:100%;justify-content:center">
+          Daftar Jadi Anggota →
+        </a>
+      </div>
+      <div class="reveal reveal-delay-2">
+        <div class="kontak-map">
+          <div class="kontak-map-icon">🗺️</div>
+          <div style="font-size:15px;font-weight:600;color:var(--gray-600)">Google Maps</div>
+          <div style="font-size:13px">Embed peta lokasi masjid di sini</div>
+          <div style="font-size:12px;color:var(--gray-300);margin-top:.5rem">Ganti dengan &lt;iframe&gt; Google Maps</div>
+          <!-- 
+            Contoh embed:
+            <iframe 
+              src="https://maps.google.com/maps?q=koordinat+masjid&output=embed"
+              width="100%" height="350" style="border:0" allowfullscreen loading="lazy">
+            </iframe>
+          -->
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════
+     FOOTER
+══════════════════════════════════════════ -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand">
+          <div class="footer-brand-icon">🕌</div>
+          <div class="footer-brand-name">DKM Baitul Muttaqiin</div>
+        </div>
+        <p class="footer-desc">
+          Sistem Pendataan & Pengembangan Remaja Masjid. Membangun generasi muda yang aktif, sehat, dan berakhlak mulia.
+        </p>
+      </div>
+      <div>
+        <div class="footer-col-title">Navigasi</div>
+        <div class="footer-links">
+          <a href="#beranda" class="footer-link">Beranda</a>
+          <a href="#tentang" class="footer-link">Tentang Kami</a>
+          <a href="#sambutan" class="footer-link">Sambutan Ketua</a>
+          <a href="#struktur" class="footer-link">Struktur Organisasi</a>
+          <a href="#program" class="footer-link">Program Kegiatan</a>
+        </div>
+      </div>
+      <div>
+        <div class="footer-col-title">Program</div>
+        <div class="footer-links">
+          <a href="#program" class="footer-link">Pencak Silat</a>
+          <a href="#program" class="footer-link">Tenis Meja</a>
+          <a href="#program" class="footer-link">Futsal</a>
+          <a href="#program" class="footer-link">Badminton</a>
+          <a href="#program" class="footer-link">Kajian Keagamaan</a>
+        </div>
+      </div>
+      <div>
+        <div class="footer-col-title">Tautan</div>
+        <div class="footer-links">
+          <a href="pages/daftar.html" class="footer-link">Daftar Anggota</a>
+          <a href="#kontak" class="footer-link">Kontak</a>
+          <a href="admin/login.html" class="footer-link">Login Admin</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="footer-copy">© 2024 <strong>DKM Baitul Muttaqiin</strong>. All rights reserved.</div>
+      <div class="footer-copy">Dibuat dengan ❤️ untuk kemajuan remaja masjid</div>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
